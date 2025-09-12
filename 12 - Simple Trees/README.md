@@ -22,16 +22,16 @@ Then, add in the ability to traverse the tree in at least the following ways
 
 ### In-order traversal - read up on DFS
 So I can view each organisational unit all the way to the highest person not already visited:
-Developer: Lindiwe
-Software Development Manager: Linda
-CIO: Thabo
-CEO: Zanele
-Accountant: Muhammad
-CFO: Pieter
-Operations Manager: Nomsa
-COO: Lerato
-Tech Lead: Megan
-CTO: Sifiso
+* Developer: Lindiwe
+* Software Development Manager: Linda
+* CIO: Thabo
+* CEO: Zanele
+* Accountant: Muhammad
+* CFO: Pieter
+* Operations Manager: Nomsa
+* COO: Lerato
+* Tech Lead: Megan
+* CTO: Sifiso
 
 Visually:
 ```
@@ -47,16 +47,16 @@ Developer: Lindiwe (1)
 
 ### Pre-order Traversal (top to bottom) - read up on DFS
 So I can view each person and their direct reports all the way down:
-CEO: Zanele
-CIO: Thabo
-Software Development Manager: Linda
-Developer: Lindiwe
-CFO: Pieter
-Accountant: Muhammad
-COO: Lerato
-Operations Manager: Nomsa
-CTO: Sifiso
-Tech Lead: Megan
+* CEO: Zanele
+* CIO: Thabo
+* Software Development Manager: Linda
+* Developer: Lindiwe
+* CFO: Pieter
+* Accountant: Muhammad
+* COO: Lerato
+* Operations Manager: Nomsa
+* CTO: Sifiso
+* Tech Lead: Megan
 
 Visually:
 ```
@@ -72,16 +72,16 @@ Developer: Lindiwe (4)
 
 ### Post-order traversal (bottom to top) - read up on DFS
 So I can view each person and their managers all the way up:
-Developer: Lindiwe
-Software Development Manager: Linda
-CIO: Thabo
-Accountant: Muhammad
-CFO: Pieter
-Operations Manager: Nomsa
-COO: Lerato
-Tech Lead: Megan
-CTO: Sifiso
-CEO: Zanele
+* Developer: Lindiwe
+* Software Development Manager: Linda
+* CIO: Thabo
+* Accountant: Muhammad
+* CFO: Pieter
+* Operations Manager: Nomsa
+* COO: Lerato
+* Tech Lead: Megan
+* CTO: Sifiso
+* CEO: Zanele
 
 ```
                                         CEO: Zanele (10)
@@ -96,10 +96,10 @@ CEO: Zanele
 
 ### Level-order Traversal (Breadth-First to achieve level by level)
 So I can view level by level which is useful to view all executives, all managers, etc.
-CEO: Zanele
-CIO: Thabo, CFO: Pieter, COO: Lerato, CTO: Sifiso
-Software Development Manager: Linda, Accountant: Muhammad, Operations Manager: Nomsa, Tech Lead: Megan
-Developer: Lindiwe
+* CEO: Zanele
+* CIO: Thabo, CFO: Pieter, COO: Lerato, CTO: Sifiso
+* Software Development Manager: Linda, Accountant: Muhammad, Operations Manager: Nomsa, Tech Lead: Megan
+* Developer: Lindiwe
 
 Visually:
 ```
